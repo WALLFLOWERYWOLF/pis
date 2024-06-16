@@ -4,7 +4,7 @@
 script_dir="./scripts"
 
 # List of scripts
-scripts=("apps.sh" "git.sh" "keys.sh" "live-server.sh" "node.sh" "nvim.sh" "zshrc.sh" "zsh-history.sh" "steam.sh" "virt.sh")
+scripts=("apps.sh" "git.sh" "keys.sh" "live-server.sh" "node.sh" "nvim.sh" "zshrc.sh" "zsh-history.sh" "steam.sh" "virt.sh" "snapper.sh")
 
 # Iterate over each script in the array
 for script in "${scripts[@]}"; do
