@@ -11,6 +11,7 @@ apps=(
 	zsh
 	neovim
 	wezterm
+	whois
 	curl
 	tmux
 	hyprland
@@ -33,19 +34,20 @@ apps=(
 	qemu-full
 	virt-manager
 	cachyos-gaming-meta
+	gnome-games-meta
 	retroarch
 	mpv
 	qbittorrent
 	thunderbird
 	obs-studio
 	syncplay
+	octopi
 	pamac
 	droidcam
 	inkscape
 	krita
 	darktable
 	libreoffice-fresh
-	aisleroit
 	blender
 	joplin
 	obsidian
@@ -62,4 +64,9 @@ flatpaks=(
 
 #installing apps and shell
 echo "Installing Apps and Shell"
-paru -S --noconfirm ${apps[*]}
+for app in ${apps[@]}; do
+	paru -S --noconfirm $app
+done
+for flatpak in ${flatpaks[@]}; do
+	flatpak install flathub $flatpak
+done
