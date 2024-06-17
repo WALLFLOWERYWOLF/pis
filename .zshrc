@@ -7,6 +7,9 @@ alias gl="git log"
 alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
+alias fps="~/repos/pis/script_active/flatpak/search.sh"
+alias fpi="flatpak install flathub"
+alias fpr="flatpak run"
 
 # Replace ls with exa
 alias lse='exa -al --color=always --group-directories-first --icons'     # preferred listing
