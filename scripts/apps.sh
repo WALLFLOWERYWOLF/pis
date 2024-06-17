@@ -46,10 +46,11 @@ apps=(
 	droidcam
 	inkscape
 	krita
+	pinta
 	darktable
 	libreoffice-fresh
 	blender
-	joplin
+	joplin-desktop
 	obsidian
 	celluloid
 	discover
