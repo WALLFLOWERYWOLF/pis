@@ -27,7 +27,7 @@ apps=(
 	youtube-dl
 	xdman
 	telegram-desktop
-	discord
+	webcord
 	podman
 	distrobox
 	boxbuddy
