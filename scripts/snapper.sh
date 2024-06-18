@@ -17,4 +17,3 @@ sudo sed -i "/$pattern/s/)/ $text_to_insert&/" "$file"
 
 sudo mkinitcpio -P
 sudo grub-mkconfig -o /boot/grub/grub.cfg
-reboot
