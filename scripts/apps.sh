@@ -31,8 +31,17 @@ apps=(
 	podman
 	distrobox
 	boxbuddy
-	qemu-full
 	virt-manager
+	virt-viewer
+	qemu-full
+	vde2
+	ebtables
+	iptables-nft
+	nftables
+	dnsmasq
+	bridge-utils
+	ovmf
+	swtpm
 	cachyos-gaming-meta
 	gnome-games-meta
 	retroarch
