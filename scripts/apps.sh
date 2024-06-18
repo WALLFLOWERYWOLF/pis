@@ -5,9 +5,7 @@ apps=(
 	btrfsmaintenance
 	snapper
 	btrfs-assistant
-	snap-pac
 	inotify-tools
-	grub-btrfs
 	zsh
 	neovim
 	wezterm
@@ -66,6 +64,7 @@ apps=(
 	k3b
 	firefox
 	flatpak
+	snapper-support
 )
 
 flatpaks=(
