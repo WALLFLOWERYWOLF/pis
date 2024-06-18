@@ -10,6 +10,8 @@ alias gp="git push"
 alias fps="~/repos/pis/script_active/flatpak/search.sh"
 alias fpi="flatpak install flathub"
 alias fpr="flatpak run"
+alias gcro="~/repos/pis/scripts_active/gcro.sh"
+alias gcr="~/repos/pis/scripts_active/gcr.sh"
 
 # Replace ls with exa
 alias lse='exa -al --color=always --group-directories-first --icons'     # preferred listing
