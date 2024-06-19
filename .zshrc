@@ -7,11 +7,12 @@ alias gl="git log"
 alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
-alias fps="~/repos/pis/script_active/flatpak/search.sh"
+alias fps="~/script_active/flatpak/search.sh"
 alias fpi="flatpak install flathub"
 alias fpr="flatpak run"
-alias gcro="~/repos/pis/scripts_active/gcro.sh"
-alias gcr="~/repos/pis/scripts_active/gcr.sh"
+alias gcro="~/scripts_active/git/gcro.sh"
+alias gcr="~/scripts_active/git/gcr.sh"
+alias gdir="~/scripts_active/gdir.sh"
 
 # Replace ls with exa
 alias lse='exa -al --color=always --group-directories-first --icons'     # preferred listing
