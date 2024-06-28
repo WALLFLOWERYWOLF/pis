@@ -60,16 +60,16 @@ apps=(
 	joplin-desktop
 	obsidian
 	celluloid
-	discover
 	k3b
 	firefox
 	flatpak
+	discover
+	pcsx2-git
 	snapper-support
 )
 
 flatpaks=(
-	net.pcsx2.PCSX2
-)
+  org.libretro.RetroArch
 
 #installing apps and shell
 echo "Installing Apps and Shell"
