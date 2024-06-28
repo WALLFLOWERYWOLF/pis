@@ -69,13 +69,16 @@ apps=(
 )
 
 flatpaks=(
-  org.libretro.RetroArch
+	org.libretro.RetroArch
+)
 
 #installing apps and shell
 echo "Installing Apps and Shell"
-for app in ${apps[@]}; do
+for app in ${apps[@]}
+do
 	paru -S --noconfirm $app
 done
-for flatpak in ${flatpaks[@]}; do
+for flatpak in ${flatpaks[@]}
+do
 	flatpak install flathub $flatpak
 done
